@@ -7,4 +7,3 @@ while vote != 4:
     candidate[vote==blue] += 1      #if vote = blue, increment blue
     candidate[vote==red] += 1       #if vote = red, increment red
 print {'other': candidate[other],'blue' : candidate[blue],'red'  : candidate[red]} #display results
-vote = input ("") #ask voter for vote
